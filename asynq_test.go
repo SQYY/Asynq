@@ -11,11 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/SQYY/Asynq/internal/log"
+	h "github.com/SQYY/Asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq/internal/log"
-	h "github.com/hibiken/asynq/internal/testutil"
 )
 
 //============================================================================

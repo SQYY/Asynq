@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/SQYY/Asynq/internal/base"
+	"github.com/SQYY/Asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/testutil"
 )
 
 func TestSchedulerRegister(t *testing.T) {

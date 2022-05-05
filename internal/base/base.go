@@ -14,11 +14,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/SQYY/Asynq/internal/errors"
+	pb "github.com/SQYY/Asynq/internal/proto"
+	"github.com/SQYY/Asynq/internal/timeutil"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hibiken/asynq/internal/errors"
-	pb "github.com/hibiken/asynq/internal/proto"
-	"github.com/hibiken/asynq/internal/timeutil"
 	"google.golang.org/protobuf/proto"
 )
 

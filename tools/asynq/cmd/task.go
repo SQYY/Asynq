@@ -11,7 +11,6 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/hibiken/asynq"
 	"github.com/spf13/cobra"
 )
 

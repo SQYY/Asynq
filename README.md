@@ -1,3 +1,3 @@
 # Asynq
 
-Fork https://github.com/hibiken/asynq
+Fork https://github.com/SQYY/Asynq

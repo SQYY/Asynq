@@ -10,12 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/SQYY/Asynq/internal/base"
+	"github.com/SQYY/Asynq/internal/log"
+	"github.com/SQYY/Asynq/internal/rdb"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
-	"github.com/hibiken/asynq/internal/rdb"
-	"github.com/robfig/cron/v3"
 )
 
 // A Scheduler kicks off tasks at regular intervals based on the user defined schedule.

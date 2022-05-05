@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/SQYY/Asynq/internal/base"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
 )
 
 func TestCreateContextWithFutureDeadline(t *testing.T) {

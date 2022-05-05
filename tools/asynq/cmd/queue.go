@@ -9,9 +9,8 @@ import (
 	"io"
 	"os"
 
+	"github.com/SQYY/Asynq/internal/errors"
 	"github.com/fatih/color"
-	"github.com/hibiken/asynq"
-	"github.com/hibiken/asynq/internal/errors"
 	"github.com/spf13/cobra"
 )
 

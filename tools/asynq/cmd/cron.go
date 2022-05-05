@@ -11,7 +11,6 @@ import (
 	"sort"
 	"time"
 
-	"github.com/hibiken/asynq"
 	"github.com/spf13/cobra"
 )
 

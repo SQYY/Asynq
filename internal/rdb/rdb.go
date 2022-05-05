@@ -11,11 +11,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/SQYY/Asynq/internal/base"
+	"github.com/SQYY/Asynq/internal/errors"
+	"github.com/SQYY/Asynq/internal/timeutil"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/errors"
-	"github.com/hibiken/asynq/internal/timeutil"
 	"github.com/spf13/cast"
 )
 

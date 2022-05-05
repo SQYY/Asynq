@@ -16,8 +16,8 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/SQYY/Asynq/internal/rdb"
 	"github.com/fatih/color"
-	"github.com/hibiken/asynq/internal/rdb"
 	"github.com/spf13/cobra"
 )
 

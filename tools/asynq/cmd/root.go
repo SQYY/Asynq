@@ -14,10 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/go-redis/redis/v8"
-	"github.com/hibiken/asynq"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/SQYY/Asynq/internal/base"
+	"github.com/SQYY/Asynq/internal/rdb"
 	"github.com/spf13/cobra"
 
 	homedir "github.com/mitchellh/go-homedir"
