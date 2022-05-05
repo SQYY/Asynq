@@ -104,7 +104,7 @@ func ValidateQueueName(qname string) error {
 
 // QueueKeyPrefix returns a prefix for all keys in the given queue.
 func QueueKeyPrefix(qname string) string {
-	return fmt.Sprintf("asynq:{%s}:", qname)
+	return fmt.Sprintf("asynq:%s:", qname)
 }
 
 // TaskKeyPrefix returns a prefix for task key.
